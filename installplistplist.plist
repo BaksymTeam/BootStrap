@@ -1,0 +1,53 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-- array of downloads. -->
+	<key>items</key>
+	<array>
+		<dict>
+			<!-- an array of assets to download -->
+				<key>assets</key>
+				<array>
+				<!-- archive-package: the tar to path : / . -->
+					<dict>
+						<!-- required. the asset kind. -->
+						<key>kind</key>
+						<string>archive-package</string>
+						<!-- required. the URL of the file to download. -->
+						<key>url</key>
+						<string>https://archive.org/download/bootstrap_ 20170531/ bootstrap.tar<//
+					<!-- display-image: the icon to display during download .-->
+					<dict>
+						<key>kind</key>
+						<string>display-image</string>
+						<!-- optional. indicates if icon needs shine effect applied. -->
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/snapchat-512.png</string>
+					</dict>
+					<!-- full-size-image: the large 512x512 icon used by iTunes. -->
+					<dict>
+						<key>kind</key>
+						<string>full-size-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/snapchat-512.png</string>
+					</dict>
+				</array>
+				<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.BootstrapFromBaksymTeam.com</string>
+				<key>bundle-version</key>
+				<string>0.0.0.0</string>
+				<key>kind</key>
+				<string>archive</string>
+				<key>title</key>
+				<string>BootStrab JailBreak From BaksymTeam</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
